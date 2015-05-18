@@ -1,0 +1,97 @@
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: url("../img/pattern/black_paper.png") repeat #444;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"],
+.form-signin input[type="email"] {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin input[type="text"]:focus,
+.form-signin input[type="password"]:focus,
+.form-signin input[type="email"]:focus  {
+    z-index: 2;
+}
+.form-signin input[type="text"] {
+    margin-bottom: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-signin select {
+    margin-bottom: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.form-signin input[type="email"] {
+    margin-bottom: 5px;
+    border-radius: 0;
+}
+
+.btn-metis-3 {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #926710;
+  background-image: -moz-linear-gradient(top, #b78114, #5b400a);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#b78114), to(#5b400a));
+  background-image: -webkit-linear-gradient(top, #b78114, #5b400a);
+  background-image: -o-linear-gradient(top, #b78114, #5b400a);
+  background-image: linear-gradient(to bottom, #b78114, #5b400a);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb78114', endColorstr='#ff5b400a', GradientType=0);
+  border-color: #5b400a #5b400a #161002;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #5b400a;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.btn-metis-3:hover,
+.btn-metis-3:active,
+.btn-metis-3.active,
+.btn-metis-3.disabled,
+.btn-metis-3[disabled] {
+  color: #ffffff;
+  background-color: #5b400a;
+  *background-color: #443007;
+}
+.btn-metis-3:active,
+.btn-metis-3.active {
+  background-color: #2d2005 \9;
+}
+
+.navbar-brand {
+
+  font-size: 18px;
+  color: #CE000A !important;
+  padding:15px;
+}
+
+
+
+
